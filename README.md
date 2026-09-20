@@ -301,4 +301,4 @@ Only `completed` is a success. Every other terminal state is an honest non-succe
 
 ---
 
-## Design decisions, trade-offs, acceptance-scenario coverage and the AI-usage disclosure are in [`SUBMISSION.md`](SUBMISSION.md). A recording script for the demo video is in [`DEMO.md`](DEMO.md).
+## Design decisions, trade-offs, acceptance-scenario coverage and the AI-usage disclosure are in [`SUBMISSION.md`](SUBMISSION.md). 
