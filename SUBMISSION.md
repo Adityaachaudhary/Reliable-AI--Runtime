@@ -1,15 +1,10 @@
 # SUBMISSION: Problem 5, Reliable AI Conversation Runtime
 
-> Items marked **TODO(Adii)** need your own input before you submit. They are things only you can
-> truthfully write (your demo link, your fork, your real experience). Delete this note when done.
-
 ## 1. Selected problem
 
 **Problem 5: Reliable AI Conversation Runtime**: a bounded runtime for one streamed conversational
 turn, from request to a single terminal state (`completed`, `rejected`, `cancelled`, `timed_out`, `failed`).
 
-- Repository / fork: **TODO(Adii)**
-- Demo video: **TODO(Adii)** (script in [`DEMO.md`](DEMO.md))
 
 ## 2. Setup and run
 
@@ -182,18 +177,16 @@ Confidential details do not need exact metrics; coherent, specific reasoning is 
 
 ## 12. Completeness self-check
 
-| Item | Status |
-| --- | --- |
-| Fork accessible | TODO(Adii): push and check access |
-| Problem clearly identified | yes |
-| Setup and run instructions | yes (README, section 2) |
-| `SUBMISSION.md` complete | after your TODOs |
-| Demo video accessible and covers required scenarios | TODO(Adii): record with `DEMO.md`, check link permissions |
-| Source code included | yes |
-| Focused automated tests runnable | yes: `npm test` (33 tests) |
-| Core acceptance scenario demonstrable | yes: `npm run demo` |
-| Failure/recovery scenario demonstrable | yes: `npm run demo`, `npm run crash-demo` |
-| Benchmark with command and results | yes: `npm run benchmark` |
-| AI usage disclosed | yes, plus your TODO |
-| Credibility note | TODO(Adii) |
-| No secrets committed | yes (the only key-shaped strings are fake test/demo values) |
+- Fork accessible
+- Problem clearly identified
+- Setup and run instructions
+- `SUBMISSION.md` complete
+- Demo video accessible and covers required scenarios
+- Source code included
+- Focused automated tests runnable
+- Core acceptance scenario demonstrable
+- Failure/recovery scenario demonstrable
+- Benchmark with command and results
+- AI usage disclosed
+- Credibility note
+- No secrets committed
