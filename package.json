@@ -1,0 +1,25 @@
+{
+  "name": "reliable-ai-runtime",
+  "version": "1.0.0",
+  "description": "Bounded runtime for one streamed conversational turn: policy gate, streaming, cancellation, timeout, explicit terminal states and a safe operational trace.",
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": ">=22.13"
+  },
+  "scripts": {
+    "test": "vitest run",
+    "typecheck": "tsc --noEmit",
+    "benchmark": "tsx src/benchmark/main.ts",
+    "demo": "tsx src/cli.ts demo",
+    "cli": "tsx src/cli.ts",
+    "verify": "npm run typecheck && npm test && npm run benchmark",
+    "crash-demo": "tsx src/crashDemo.ts"
+  },
+  "devDependencies": {
+    "@types/node": "^26.6.2",
+    "tsx": "^4.23.13",
+    "typescript": "^7.0.2",
+    "vitest": "^5.0.1"
+  }
+}
